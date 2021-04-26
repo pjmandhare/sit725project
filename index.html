@@ -30,7 +30,23 @@
 
       <div id="calendar"></div>
     </div>
-    
+    <div id="newEventModal">
+      <h2>Add Order</h2>
+
+      <input id="eventTitleInput" placeholder="Event Title" />
+       <input type="time" id="eventTimeInput" required/>
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Order Details</h2>
+
+      <p id="eventText"></p>
+
+      <button id="deleteButton">Delete</button>
+      <button id="closeButton">Close</button>
+    </div>
 
     <div id="modalBackDrop"></div>
 
